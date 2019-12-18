@@ -53,6 +53,11 @@ echo "Starting smart config pairing procedure"
 
 echo "Waiting for the device to install the intermediate firmware"
 
+while true; do
+  echo -n '.'
+  sleep 5
+done
+
 i=120
 while ! ping -c 1 -W 1 -n 10.42.42.42 &> /dev/null; do
 	printf .
