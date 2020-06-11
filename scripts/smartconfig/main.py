@@ -21,7 +21,8 @@ print('Sending wifiPassword          '+passwd)
 print('Sending token                 '+token)
 print('Sending secret                '+secret)
 
-for i in range(10): # Make 10 attempts
+#for i in range(10): # Make 10 attempts
+while True:
 
 	smartconfig( passwd, ssid, region, token, secret )
 

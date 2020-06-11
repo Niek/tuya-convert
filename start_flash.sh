@@ -49,7 +49,7 @@ echo
 echo "======================================================"
 
 echo "Starting smart config pairing procedure"
-./smartconfig/main.py &
+./smartconfig/main.py #&
 
 echo "Waiting for the device to install the intermediate firmware"
 
